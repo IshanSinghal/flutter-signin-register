@@ -24,6 +24,9 @@ void main() {
 }
 
 
+
+
+
 #home.dart
 import 'package:flutter/material.dart';
 
@@ -125,6 +128,7 @@ class _MyRegState extends State<MyReg> {
               SizedBox(
                 height: 10,
               ),
+              
               TextField(
                 obscureText: true,
                 onChanged: (value) {
